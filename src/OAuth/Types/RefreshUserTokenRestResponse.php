@@ -64,6 +64,18 @@ class RefreshUserTokenRestResponse  extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'error_uri'
+        ],
+        'cs_access_token_expires_in' => [
+            'type' => 'integer',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'cs_access_token_expires_in'
+        ],
+        'iaf_access_token_expires_in' => [
+            'type' => 'integer',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'iaf_access_token_expires_in'
         ]
     ];
 
