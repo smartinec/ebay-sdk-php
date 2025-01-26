@@ -216,6 +216,12 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'material'
         ],
+        'minimumPriceToBid' => [
+            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'minimumPriceToBid'
+        ],
         'mpn' => [
             'type' => 'string',
             'repeatable' => false,
