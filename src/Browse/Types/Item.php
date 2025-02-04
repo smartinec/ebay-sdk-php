@@ -198,6 +198,12 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'itemWebUrl'
         ],
+        'listingMarketplaceId' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'listingMarketplaceId'
+        ],
         'localizedAspects' => [
             'type' => 'DTS\eBaySDK\Browse\Types\TypedNameValue',
             'repeatable' => true,
